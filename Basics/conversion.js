@@ -29,3 +29,16 @@ console.log(typeof stringNumber); // Here the type of stringNumber is string bec
 console.log(stringNumber);
 
 /*******************************OPERATIONS************************************************/
+
+let value = 9;
+let negValue = -value; // <--- here the number was converted to negative number.
+
+console.log(negValue);
+
+let str1 = "Hello";
+
+let str2 = " Atharva";
+
+let str3 = str1 + str2; // <--- here the two strings were concatenated.
+
+console.log(str3);
