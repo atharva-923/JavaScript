@@ -2,19 +2,19 @@ const arr = [1,2,3,4,5]// create an array using the array literal syntax
 
 const arr1 = new Array(1,2,3,4,5)// create an array using the Array constructor
 
-// console.log(arr);
-// console.log(arr1);
+console.log(arr);
+console.log(arr1);
 
 // array methods
 
-// arr.push(6) // add element at the end of the array
-// arr.pop() // remove element from the end of the array
-// console.log(arr);
+arr.push(6) // add element at the end of the array
+arr.pop() // remove element from the end of the array
+console.log(arr);
 
-// arr.unshift(9) // add element at the start of the array
-// console.log(arr);
-// arr.shift() // remove element from the start of the array
-// console.log(arr);
+arr.unshift(9) // add element at the start of the array
+console.log(arr);
+arr.shift() // remove element from the start of the array
+console.log(arr);
 
 console.log(arr.includes(9));// check if the array includes a certain element
 console.log(arr.indexOf(5));// check the index of a certain element in the array
