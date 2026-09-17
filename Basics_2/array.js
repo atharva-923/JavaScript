@@ -1,6 +1,6 @@
-const arr = [1,2,3,4,5]
+const arr = [1,2,3,4,5]// create an array using the array literal syntax
 
-const arr1 = new Array(1,2,3,4,5)
+const arr1 = new Array(1,2,3,4,5)// create an array using the Array constructor
 
 // console.log(arr);
 // console.log(arr1);
@@ -16,8 +16,8 @@ const arr1 = new Array(1,2,3,4,5)
 // arr.shift() // remove element from the start of the array
 // console.log(arr);
 
-console.log(arr.includes(9));
-console.log(arr.indexOf(5));
+console.log(arr.includes(9));// check if the array includes a certain element
+console.log(arr.indexOf(5));// check the index of a certain element in the array
 
 const newArr = arr.join()// create a new array from the existing array
 console.log(typeof newArr); // string, Why? answer: because join() method returns a string by joining all the elements of the array with a specified separator (default is comma).
