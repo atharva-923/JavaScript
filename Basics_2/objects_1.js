@@ -54,7 +54,6 @@ console.log(Object.entries(instaUser)); // Keys then Values
 
 console.log(instaUser.hasOwnProperty('isLoggedIn'));
 
-
 const course = {
     coursename: "Atharva patil",
     price: "999",
