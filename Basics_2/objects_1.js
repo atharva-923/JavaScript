@@ -30,7 +30,7 @@ const obj3 = {...obj1, ...obj2}
 // console.log(obj3);
 
 
-const users = [
+const users = [                 // Array Objects
     {
         id: 1,
         email: "a@gmail.com"
