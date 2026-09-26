@@ -1,18 +1,18 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// const tinderUser = new Object() || Output :- {} || singleton object
+const instaUser = {} // Output :- {} || non singleton object
 
-tinderUser.id = "597591"
-tinderUser.name = "Retard"
-tinderUser.isLoggedIn = false
+instaUser.id = "597591"
+instaUser.name = "Retard"
+instaUser.isLoggedIn = false
 
-console.log(tinderUser);
+console.log(instaUser);
 
 const regularUser = {
     email: "some@gmail.com",
     fullname: {
         userfullname: {
-            firstname: "hitesh",
-            lastname: "choudhary"
+            firstname: "Kajal",
+            lastname: "Rai"
         }
     }
 }
@@ -46,13 +46,13 @@ const users = [
 ]
 
 users[1].email
- console.log(tinderUser);
+ console.log(instaUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+console.log(Object.keys(instaUser));
+console.log(Object.values(instaUser));
+console.log(Object.entries(instaUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+console.log(instaUser.hasOwnProperty('isLoggedIn'));
 
 
 const course = {
