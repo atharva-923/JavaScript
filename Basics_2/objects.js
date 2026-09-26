@@ -1,3 +1,4 @@
+// Object Literals
 Object.create // constructor method
 
 const mySym = Symbol('key1') // creating a symbol
