@@ -50,7 +50,7 @@ users[1].email
 
 console.log(Object.keys(instaUser));
 console.log(Object.values(instaUser));
-console.log(Object.entries(instaUser));
+console.log(Object.entries(instaUser)); // Keys then Values
 
 console.log(instaUser.hasOwnProperty('isLoggedIn'));
 
