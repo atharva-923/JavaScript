@@ -1,8 +1,8 @@
 // const tinderUser = new Object()
 const tinderUser = {}
 
-tinderUser.id = "123abc"
-tinderUser.name = "Sammy"
+tinderUser.id = "597591"
+tinderUser.name = "Retard"
 tinderUser.isLoggedIn = false
 
 console.log(tinderUser);
