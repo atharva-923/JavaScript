@@ -8,7 +8,7 @@ add(9, 9); // Output: 18
 
 const result = add(9, 9); // Output: 18
 
-console.log(result); // Output: undefined
+console.log("result: " + result); // Output: result: undefined
 
 function add_1(num1, num2) {
     let sum = num1 + num2;
@@ -16,4 +16,4 @@ function add_1(num1, num2) {
 }
 
 const sum = add_1(9, 9);
-console.log(sum); // Output: 18
+console.log("sum: " + sum); // Output: sum: 18
