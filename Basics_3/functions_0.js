@@ -13,6 +13,7 @@ console.log("result: " + result); // Output: result: undefined
 function add_1(num1, num2) {
     let sum = num1 + num2;
     return sum;
+    // can also be written as: return num1 + num2;
 }
 
 const sum = add_1(9, 9);
