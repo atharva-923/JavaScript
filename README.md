@@ -15,7 +15,9 @@ The learning journey currently includes:
 - Dates
 - Type conversion
 - Arrays and array methods
-- Objects
+- Objects (declarations, nesting, and methods)
+- Functions and parameters
+- Scopes (in progress)
 - JavaScript fundamentals and practice examples
 
 ## Repository Structure
@@ -24,16 +26,21 @@ The learning journey currently includes:
 JavaScript/
 ├── Basics_1/
 │   ├── variables.js
+│   ├── datatypes.js
+│   ├── conversion.js
 │   ├── string.js
 │   ├── nums_maths.js
-│   ├── dates.js
-│   ├── datatypes.js
-│   └── conversion.js
+│   └── dates.js
 │
 ├── Basics_2/
-│   ├── array.js
+│   ├── array_0.js
 │   ├── array_1.js
-│   └── objects.js
+│   ├── objects_0.js
+│   └── objects_1.js
+│
+├── Basics_3/
+│   ├── functions_0.js
+│   └── scopes.js
 │
 ├── README.md
 └── .gitignore
@@ -49,7 +56,8 @@ JavaScript/
 - [x] Data types and conversion
 - [x] Arrays and array methods
 - [x] Objects
-- [ ] Functions
+- [x] Functions
+- [ ] Scope and hoisting
 - [ ] Loops and conditionals
 - [ ] DOM manipulation
 - [ ] Events
