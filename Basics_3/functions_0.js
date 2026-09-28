@@ -21,7 +21,13 @@ const sum = add_1(9, 9); //this sum is a global variable, it is accessible outsi
 console.log("sum: " + sum); // Output: sum: 18
 
 function loginmessage(username) {
+    if(username === undefined || username === null || username === "") {
+        console.log("Please provide a username");
+        return;
+    }
     return `${username} just logged in`;
 }
 
 console.log(loginmessage("Atharva")); // Output: Atharva just logged in
+
+console.log(loginmessage()); // Output: Please provide a username
