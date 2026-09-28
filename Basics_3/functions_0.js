@@ -25,7 +25,7 @@ function loginmessage(username) {
         console.log("Please provide a username");
         return;
     }
-    return `${username} just logged in!!!`;
+    return `${username} just logged in!`;
 }
 
 console.log(loginmessage("Atharva")); // Output: Atharva just logged in
