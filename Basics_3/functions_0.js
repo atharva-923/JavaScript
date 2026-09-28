@@ -19,3 +19,9 @@ function add_1(num1, num2) {
 
 const sum = add_1(9, 9); //this sum is a global variable, it is accessible outside the function.
 console.log("sum: " + sum); // Output: sum: 18
+
+function loginmessage(username) {
+    return `${username} just logged in`;
+}
+
+console.log(loginmessage("Atharva")); // Output: Atharva just logged in
