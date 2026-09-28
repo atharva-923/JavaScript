@@ -22,7 +22,7 @@ console.log("sum: " + sum); // Output: sum: 18
 
 function loginmessage(username) {
     if(username === undefined || username === null || username === "") {
-        console.log("Please provide a username");
+        console.log("Please provide a username.");
         return;
     }
     return `${username} just logged in!`;
