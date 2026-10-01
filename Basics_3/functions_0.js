@@ -31,3 +31,9 @@ function loginmessage(username) {
 console.log(loginmessage("Atharva")); // Output: Atharva just logged in
 
 console.log(loginmessage()); // Output: Please provide a username
+
+function cartvalue(...amounts) {
+    return amounts
+}
+
+console.log("Cart: ",cartvalue(100, 200, 300)); // Output: [100, 200, 300]
