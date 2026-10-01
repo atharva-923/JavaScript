@@ -54,3 +54,6 @@ const newArray = [670, 900, 690];
 function returnSecondElement(getArray) {
     return getArray[1];
 }
+
+console.log(returnSecondElement(newArray)); // Output: 900
+console.log(returnSecondElement([100, 200, 300])); // Output: 200
