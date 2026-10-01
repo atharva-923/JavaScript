@@ -37,3 +37,8 @@ function cartvalue(...amounts) {
 }
 
 console.log("Cart: ",cartvalue(100, 200, 300)); // Output: [100, 200, 300]
+
+const user = {
+    username: "Atharva",
+    price : 67
+}
