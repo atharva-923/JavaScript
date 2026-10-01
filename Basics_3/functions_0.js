@@ -50,3 +50,7 @@ function handleobject(anyobject) {
 handleobject(user); // Output: Username is Atharva and Price is 67
 
 const newArray = [670, 900, 690];
+
+function returnSecondElement(getArray) {
+    return getArray[1];
+}
