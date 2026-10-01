@@ -6,14 +6,9 @@ if (true) {
     // console.log("INNER: ", a);
     
 }
-
-
-
 // console.log(a);
 // console.log(b);
 // console.log(c);
-
-
 function one(){
     const username = "Atharva"
 
@@ -49,8 +44,6 @@ console.log(addone(5))
 function addone(num){
     return num + 1
 }
-
-
 
 addTwo(5)
 const addTwo = function(num){
