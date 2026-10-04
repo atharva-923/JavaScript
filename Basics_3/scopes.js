@@ -3,11 +3,11 @@ let a = 300
 if (true) {
     let a = 10
     const b = 20
-    var c = 300
+    // var c = 300
     // console.log("INNER: ", a);
     
 }
-console.log(c); //var c gets out of the block scope and is accessible here
+// console.log(c); //var c gets out of the block scope and is accessible here
 function one(){
     const username = "Atharva"
 
