@@ -1,10 +1,10 @@
 //var c = 300
-let a = 300
+let a = 300 // global scope
 if (true) {
-    let a = 10
+    let a = 10 // block scope
     const b = 20
     // var c = 300
-    // console.log("INNER: ", a);
+    console.log("INNER: ", a);
     
 }
 // console.log(c); //var c gets out of the block scope and is accessible here
