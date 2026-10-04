@@ -13,7 +13,7 @@ function one(){
     const username = "Atharva"
 
     function two(){
-        const website = "youtube"
+        const website = "Crate"
         console.log(username);
     }
     // console.log(website);
