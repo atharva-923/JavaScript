@@ -8,6 +8,7 @@ if (true) {
     
 }
 // console.log(c); //var c gets out of the block scope and is accessible here
+
 function one(){
     const username = "Atharva"
 
