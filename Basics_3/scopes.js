@@ -16,13 +16,13 @@ function one(){
         const website = "Crate"
         console.log(username);
     }
-    // console.log(website);
+        console.log(website);
 
-     two()
+     two() //execute the function two() to access the variable website
 
 }
 
-// one()
+one() //execute the function one() to access the variable username
 
 if (true) {
     const username = "Atharva"
