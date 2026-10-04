@@ -12,7 +12,7 @@ if (true) {
 function one(){
     const username = "Atharva"
 
-    function two(){
+    function two(){ // for fucntion two the global is function one.
         const website = "Crate"
         console.log(username);
     }
