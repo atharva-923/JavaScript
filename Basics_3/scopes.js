@@ -6,9 +6,7 @@ if (true) {
     // console.log("INNER: ", a);
     
 }
-// console.log(a);
-// console.log(b);
-// console.log(c);
+
 function one(){
     const username = "Atharva"
 
