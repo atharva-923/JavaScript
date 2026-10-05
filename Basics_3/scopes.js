@@ -27,7 +27,7 @@ one() //execute the function one() to access the variable username
 if (true) {
     const username = "Atharva"
     if (username === "Atharva") {
-        const website = " youtube"
+        const website = " Crate"
         // console.log(username + website);
     }
     // console.log(website);
