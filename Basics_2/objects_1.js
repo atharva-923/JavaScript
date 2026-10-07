@@ -2,7 +2,7 @@
 const instaUser = {} // Output :- {} || non singleton object
 
 instaUser.id = "597591"
-instaUser.name = "Retard"
+instaUser.name = "Atharva Patil"
 instaUser.isLoggedIn = false
 
 console.log(instaUser);
