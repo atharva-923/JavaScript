@@ -5,6 +5,6 @@
 
 //one();
 
-( () => {
+( (name) => {
     console.log('DB TWO connected!');
-})();
+})('Atharva');
