@@ -35,9 +35,7 @@ if (true) {
 
 // console.log(username);
 
-
 // ++++++++++++++++++ interesting ++++++++++++++++++
-
 
 console.log(addone(5))
 
