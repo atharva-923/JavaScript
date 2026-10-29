@@ -41,3 +41,6 @@ switch (month) {
     console.log("Invalid month");
     break;
 }
+
+// if break is not present, it will continue to execute the following cases.
+// it will not execute default.
