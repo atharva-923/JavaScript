@@ -13,3 +13,9 @@ let val1;
 val1 = null ?? 10 ?? 20 // outputs 10 because null is null or undefined, so it moves to the next value which is 10
 
 console.log(val1);
+
+// Terniary Operator
+// condition ? true : false
+
+const gamePrice = 999
+gamePrice <= 800 ? console.log("less than 800") : console.log("more than 800")
