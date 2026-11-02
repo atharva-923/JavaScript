@@ -12,11 +12,15 @@ for (const greet of greetings) {
 //Maps 
 
 const map = new Map()
-map.set('Name', 'John')
-map.set('Age', 30)
-map.set('City', 'New York')
+map.set('Name', 'Atharva')
+map.set('Age', 20)
+map.set('City', 'Virar')
 console.log(map);
 
 for(const key of map){
     console.log(key);
+}
+
+for(const [key, value] of map){
+    console.log(key, ':-', value);
 }
